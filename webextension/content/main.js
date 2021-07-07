@@ -7,7 +7,7 @@ var appId = null; //Chrome uses to send message to external Chrome app. Firefox 
 var popupError = null; //set to non-null when there is some error message that must be shown
 //via the popup
 var tabid = 0; //a signal that this is the main window when querying with .getViews()
-var search_share_api = 'http://search-share.herokuapp.com';
+var search_share_api = 'https://searchshare.proofs.sh';
 // var search_share_api = 'http://localhost:5002';
 
 
