@@ -1,0 +1,16 @@
+GET /sonataweb/api/adviser/current/accounts/98247043/balance-history?from=Fri,%2018%20Jun%202021%2012:00:00%20GMT&to=Fri,%2018%20Jun%202021%2012:00:00%20GMT&granularity=HALF_YEARLY&includeFundBalance=false HTTP/1.1
+Host: online.vicsuper.com.au
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90"
+Accept: application/json, text/plain, */*
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: JSESSIONID=SSOGWY-APP-01~SONAPP-WEB-HTTPS-02~im_41JOOZdBjlnyLm1nStmhFEJEyJFRtVeewlg5T.JBoss-0; nonce.Ezafbj.1624442292=78da9af0-60c6-42b7-b9aa-d9281dd61f4e; nonce.AlxHSF.1624443503=d52795df-691a-4ada-aa87-2cbd2cd21361; nonce.x9uy2v.1624443582=4dad4d74-6900-4fae-98eb-5425f15572d0; nonce.r4GLiw.1624443584=89bdf2a8-d5bf-4a7e-88a4-db19afa0aae2; nonce.wsG1dy.1624446890=861affb3-4854-43e3-a4f0-3c070b80b7a2; nonce.ZgOFEX.1624448865=77f47b3a-94ee-4483-b5fc-87e62eb572ae; nonce.xl42ty.1624449421=24d6c923-fa93-44cf-83f0-f22b73d48e35; nonce.CuFoAS.1624449428=22d37a3d-ae83-4270-9bcf-f85697cfe126; PA.Global=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiZWEiLCJwaS5zcmkiOiJLclRySmV6ZzZ3U3NXNnZwOWZ5X3RlVkNQTncifQ..d3wu0Zr0IwhsPLZeHTjk_A.GmMoS0Rb94ga6i5Nf8hCGoZpBgxJoFKlSt6nICbJt73hZvNdk1aMwzRZvhSFJH3N-4GDvuOz0k-Od4tClDP5UNDYrBUoXCPfDHWaxhMJd4yaQT0AJNxj2ryBDwXNMPtkpwQvUje3wSGgvsAfDHxK2Lmm6fRrGS2mh96kxo_mYNhjs-eQCH7y7Ak2NhpVyBeA7yKlVyuNtuA_k0mdhY5DcQ.Ll010BcKkyrUbLikvSNcDw

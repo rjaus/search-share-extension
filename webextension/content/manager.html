@@ -1,0 +1,37 @@
+<head>
+  <title>Manage Search Shares</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="Management area for your proofs" />
+  <link rel="stylesheet" href="manager.css" type="text/css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="sweetalert.css">
+
+</head>
+
+<body>
+
+  <textarea hidden id="extension2manager"></textarea>
+  <textarea hidden id="manager2extension"></textarea>
+
+  <div id="mydata">
+
+    <table class="table1" id="myTableData" width="100%">
+      <thead>
+        <tr>
+          <th scope='col' colspan='5'>Proofs</th>
+          <th scope='col' >Time</th>
+          <th scope='col' hidden>Verified</th>
+          <th scope='col' hidden>Verifier</th>
+          <th scope='col' >View Data</th>
+        </tr>
+      </thead>
+      <tbody id="myTableBody">
+      </tbody>
+    </table>
+  </div>
+
+  <script src="manager.js"></script>
+  <script src="sweetalert.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+
+  "name": "Search Share Query Proofer",
+  "description": "Extension to share your search engine results in a verifiable way.",
+  "version": "1.0",
+  "author": "Riley James",
+  "homepage_url": "https://search-share.herokuapp.com",
+
+  "permissions": [
+    "webRequest",
+    "activeTab",
+    "tabs",
+    "<all_urls>"
+  ],
+
+  "icons": {
+    "64": "icon.png"
+  },
+
+  "browser_action": {
+    "default_icon": "webextension/content/icon.png",
+    "default_popup": "webextension/content/popup.html"
+  },
+
+  "background": {
+    "page": "webextension/content/background.html"
+  }
+
+}
