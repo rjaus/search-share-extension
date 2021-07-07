@@ -241,7 +241,7 @@ async function prepareNotarizing(after_click) {
 
   var oBR_details; 
   var oBR_handler = function(details){
-    console.log('in onBeforeRequest', details.url)
+    // console.log('in onBeforeRequest', details.url)
 
     if (ddg) {
       if (details.url.includes(ddgUrl)) {
@@ -263,7 +263,7 @@ async function prepareNotarizing(after_click) {
 
   var oBSH_details;
   var oBSH_handler = function(details){
-      console.log('in onBeforeSendHeaders', details.url)
+      // console.log('in onBeforeSendHeaders', details.url)
       if (ddg) {
         if (details.url.includes(ddgUrl)) {
           chrome.webRequest.onBeforeSendHeaders.removeListener(oBSH_handler);
@@ -285,11 +285,10 @@ async function prepareNotarizing(after_click) {
   // wait for the request to pass oBR and oBHS and reach onSendHeaders
   await new Promise(function(resolve, reject) { 
     var oSH_handler = function(details){
-      console.log('in onSendHeaders', details.url)
+      // console.log('in onSendHeaders', details.url)
 
       if (ddg) {
         if (details.url.includes(ddgUrl)) {
-          console.log("MATCHED")
           chrome.webRequest.onSendHeaders.removeListener(oSH_handler);
           resolve(details);
         }
